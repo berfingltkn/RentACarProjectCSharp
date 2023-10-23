@@ -16,9 +16,20 @@ namespace DataAccess.Concrete.EntityFramework
         {
            using(RentCarDBContext context=new RentCarDBContext())
             {
-                var brandEntity = context.Entry(entity);
-                brandEntity.State = EntityState.Added;
-                context.SaveChanges();
+                try
+                {
+                    var addedEntity = context.Entry(entity);
+                    addedEntity.State = EntityState.Added;
+                    context.SaveChanges();
+                }
+                catch (Exception ex)
+                {
+                    if (ex.InnerException != null)
+                    {
+                        Console.WriteLine("Hata: " + ex.InnerException.Message);
+                    }
+
+                }
             }
         }
 

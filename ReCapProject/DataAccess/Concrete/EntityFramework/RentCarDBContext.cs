@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    class RentCarDBContext:DbContext
+    public class RentCarDBContext:DbContext
     {
      protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

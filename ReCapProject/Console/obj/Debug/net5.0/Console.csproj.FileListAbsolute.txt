@@ -59,3 +59,5 @@ C:\Users\gberf\source\repos\ReCapProject\Console\obj\Debug\net5.0\Console.dll
 C:\Users\gberf\source\repos\ReCapProject\Console\obj\Debug\net5.0\ref\Console.dll
 C:\Users\gberf\source\repos\ReCapProject\Console\obj\Debug\net5.0\Console.pdb
 C:\Users\gberf\source\repos\ReCapProject\Console\obj\Debug\net5.0\Console.genruntimeconfig.cache
+C:\Users\gberf\source\repos\ReCapProject\Console\bin\Debug\net5.0\Core.dll
+C:\Users\gberf\source\repos\ReCapProject\Console\bin\Debug\net5.0\Core.pdb
