@@ -1,5 +1,0 @@
-C:\Users\gberf\source\repos\ReCapProject\ConsoleUI\obj\Debug\net5.0\ConsoleUI.csproj.AssemblyReference.cache
-C:\Users\gberf\source\repos\ReCapProject\ConsoleUI\obj\Debug\net5.0\ConsoleUI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\gberf\source\repos\ReCapProject\ConsoleUI\obj\Debug\net5.0\ConsoleUI.AssemblyInfoInputs.cache
-C:\Users\gberf\source\repos\ReCapProject\ConsoleUI\obj\Debug\net5.0\ConsoleUI.AssemblyInfo.cs
-C:\Users\gberf\source\repos\ReCapProject\ConsoleUI\obj\Debug\net5.0\ConsoleUI.csproj.CoreCompileInputs.cache
