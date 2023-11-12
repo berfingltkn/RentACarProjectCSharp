@@ -28,16 +28,13 @@ namespace Business.Concrete
 
         public IDataResult<List<Color>> GetAll()
         {
-            if (DateTime.Now.Hour == 21)
-            {
-                return new ErrorDataResult<List<Color>>("Hata");
-            }
+           
             return new SuccessDataResult<List<Color>>(_colorDal.GetAll(),Messages.ColorsListed);
         }
 
-        public IDataResult<Color> GetColorByID(int colorId)
+        public IDataResult<Color> GetColorByID(int Id)
         {
-            return new SuccessDataResult<Color>(_colorDal.Get(p => p.ID == colorId));//getAll yapılmaz buraya, yapınca hata verdi
+            return new SuccessDataResult<Color>(_colorDal.Get(p => p.ID == Id));//getAll yapılmaz buraya, yapınca hata verdi
         }
 
         public IResult Remove(Color color)
