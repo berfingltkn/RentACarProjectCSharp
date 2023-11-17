@@ -30,23 +30,23 @@ namespace WebAPI2
             services.AddControllers();
             services.AddCors();
 
-            services.AddSingleton<ICarService,CarManager>();
-            services.AddSingleton<ICarDal,EfCarDal>();
+            //services.AddSingleton<ICarService,CarManager>();
+            //services.AddSingleton<ICarDal,EfCarDal>();
 
-            services.AddSingleton<IBrandService, BrandManager>();
-            services.AddSingleton<IBrandDal, EfBrandDal>();
+            //services.AddSingleton<IBrandService, BrandManager>();
+            //services.AddSingleton<IBrandDal, EfBrandDal>();
 
-            services.AddSingleton<IColorService, ColorManager>();
-            services.AddSingleton<IColorDal, EfColordal>();
+            //services.AddSingleton<IColorService, ColorManager>();
+            //services.AddSingleton<IColorDal, EfColordal>();
 
-            services.AddSingleton<ICustomerService, CustomerManager>();
-            services.AddSingleton<ICustomerDal, EfCustomerDal>();
+            //services.AddSingleton<ICustomerService, CustomerManager>();
+            //services.AddSingleton<ICustomerDal, EfCustomerDal>();
 
-            services.AddSingleton<IRentalsService, RentalsManager>();
-            services.AddSingleton<IRentalsDal, EfRentalsDal>();
+            //services.AddSingleton<IRentalsService, RentalsManager>();
+            //services.AddSingleton<IRentalsDal, EfRentalsDal>();
 
-            services.AddSingleton<IUsersService, UsersManager>();
-            services.AddSingleton<IUsersDal, EfUsersDal>();
+            //services.AddSingleton<IUsersService, UsersManager>();
+            //services.AddSingleton<IUsersDal, EfUsersDal>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

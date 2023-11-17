@@ -56,3 +56,9 @@ C:\Users\gberf\source\repos\ReCapProject\WebAPI2\bin\Debug\net5.0\Core.pdb
 C:\Users\gberf\source\repos\ReCapProject\WebAPI2\bin\Debug\net5.0\DataAccess.pdb
 C:\Users\gberf\source\repos\ReCapProject\WebAPI2\bin\Debug\net5.0\Entities.pdb
 C:\Users\gberf\source\repos\ReCapProject\WebAPI2\obj\Debug\net5.0\WebAPI2.csproj.CopyComplete
+C:\Users\gberf\source\repos\ReCapProject\WebAPI2\bin\Debug\net5.0\Autofac.dll
+C:\Users\gberf\source\repos\ReCapProject\WebAPI2\bin\Debug\net5.0\Autofac.Extras.DynamicProxy.dll
+C:\Users\gberf\source\repos\ReCapProject\WebAPI2\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\gberf\source\repos\ReCapProject\WebAPI2\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\gberf\source\repos\ReCapProject\WebAPI2\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\gberf\source\repos\ReCapProject\WebAPI2\bin\Debug\net5.0\FluentValidation.dll

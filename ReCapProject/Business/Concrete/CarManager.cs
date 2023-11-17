@@ -1,5 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -57,19 +59,15 @@ namespace Business.Concrete
             _carDal.Update(car);
             return new SuccessResult(Messages.CarUpdate);
         }
+        [ValidationAspect(typeof(CarValidator))]
         public IResult Add(Car car)
         {
-            if (car.Name?.Length >= 2 && car.DailyPrice > 0)
-            {
+           // ValidationTool.Validate(new CarValidator(), car);--> bunu ayrı ayrı her cross cutting için yazmaktansa aop ile yukarıdaki attribute u oluşturduk.
+            //business code lar gelecek.
                 _carDal.Add(car);
                 return new SuccessResult(Messages.CarAdded);
 
-            }
-            else
-            {
-                return new ErrorResult(Messages.CarNameInvalid);
-
-            }
+           
 
         }
 
