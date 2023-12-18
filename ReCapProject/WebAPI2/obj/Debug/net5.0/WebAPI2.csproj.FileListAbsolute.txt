@@ -65,3 +65,5 @@ C:\Users\gberf\source\repos\ReCapProject\WebAPI2\bin\Debug\net5.0\FluentValidati
 C:\Users\gberf\source\repos\ReCapProject\WebAPI2\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\gberf\source\repos\ReCapProject\WebAPI2\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Users\gberf\source\repos\ReCapProject\WebAPI2\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\gberf\source\repos\ReCapProject\WebAPI2\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\gberf\source\repos\ReCapProject\WebAPI2\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -9,7 +9,7 @@ using System.Linq.Expressions;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfUsersDal :EfEntityRepositoryBase<Users,RentCarDBContext>,IUsersDal
+    public class EfUsersDal :EfEntityRepositoryBase<User,RentCarDBContext>,IUsersDal
     {
         
     }
