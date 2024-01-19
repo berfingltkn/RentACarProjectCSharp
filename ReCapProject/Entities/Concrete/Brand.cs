@@ -11,7 +11,7 @@ namespace Entities.Concrete
     public class Brand:IEntity
     {
 
-        public int ID{ get; set; }
+        public int ID{ get; set; }//ANGULAR DA MI ikisinde de aynı olması lazım json olarak haberleşiyor biribiri 
         public string Name { get; set; }
     }
 }

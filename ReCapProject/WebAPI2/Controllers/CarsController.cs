@@ -96,6 +96,45 @@ namespace WebAPI2.Controllers
             }
             return BadRequest(result);
         }
+
+
+        [HttpGet("getcardetails")]
+        public IActionResult GetCarDetails()
+        {
+            var result = _carService.GetCarDetails();
+
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest();
+
+        }
+
+        [HttpGet("GetCardetailsByCarId")]
+        public IActionResult GetCarDetailsByCarId(int carId)
+        {
+            var result = _carService.GetCarDetailsByCarId(carId);
+
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest();
+
+        }
+        [HttpGet("GetCarDetailsByColorAndByBrand")]
+        public IActionResult GetCarDetailsByColorAndByBrand(int colorId, int brandId)
+        {
+
+            var result = _carService.GetCarDetailsByColorAndByBrand(colorId, brandId);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+
+        }
     }
 
 }

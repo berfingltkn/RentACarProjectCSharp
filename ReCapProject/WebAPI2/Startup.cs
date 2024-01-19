@@ -77,13 +77,13 @@ namespace WebAPI2
 
             //bu yapý sayesinde tüm sistemde çalýþan baðýmlýlýklarý yönetebiliriz.
             services.AddDependenctResolvers(new ICoreModule[] {
-           new CoreModule()
+           new CoreModule() 
             });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-        {
+        { 
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -92,11 +92,12 @@ namespace WebAPI2
             {
                
             }
-            app.UseRouting();
+            app.UseCors(builder => builder.WithOrigins("http://localhost:4201").AllowAnyHeader()); 
             app.UseHttpsRedirection();
+            app.UseRouting();
             app.UseAuthentication();
             app.UseStaticFiles();
-            app.UseCors(builder => builder.WithOrigins("http://localhost:44348").AllowAnyHeader());
+          
 
 
             app.UseAuthorization();
